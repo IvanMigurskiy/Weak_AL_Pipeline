@@ -1,0 +1,15 @@
+# WeakAL+AutoWS Hybrid Pipeline for Customer Support Ticket Classification
+# Research project: combining Active Learning + Weak Supervision
+# to minimize manual labeling while maintaining accuracy
+
+[project]
+name = "weakal-pipeline"
+version = "1.0.0"
+description = "Hybrid AL+WS pipeline for text classification with minimal human labeling"
+requires-python = ">=3.10"
+
+[tool.pytest]
+testpaths = []
+
+[tool.ruff]
+line-length = 100
